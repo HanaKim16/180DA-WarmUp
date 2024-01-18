@@ -1,0 +1,7 @@
+I added images of the color picker in this folder.
+Images included normal and with brightness turned up (flash)
+
+Turning up the brightness can help the code because the colors are more detectable this way.
+However, if it's too bright it may hurt the code because the threshold becomes very close to the maximum.
+(This is showcased in the color picker screenshot 'Ducky with Flash')
+The numbers for the flash photo are (255, 250, 66) - The range here is much higher versus without the flash: (233, 195, 23).
