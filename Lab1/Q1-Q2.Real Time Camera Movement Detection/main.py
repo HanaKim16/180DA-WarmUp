@@ -33,8 +33,8 @@ cv2.destroyAllWindows()
 
 # Question 1
 # Colors Threshold (0, 48, 119), (255, 255, 255)
-#HSV is clearer here because there is less contrast in the video.
-#Without the flash, the object appears clearer in HSV because it isn't bright
+# HSV is clearer here because there is less contrast in the video.
+# Without the flash, the object appears clearer in HSV because it isn't bright
 # I believe the threshold range is large - meaning the gaps in between the min and max are quite large.
 # observe the threshold numbers above, the minimum values are quite low whereas the maximum values were maxed.
 
@@ -42,3 +42,6 @@ cv2.destroyAllWindows()
 # Colors Threshold (0, 69, 124), (188, 255, 255)
 # The object starts to appear in the mask more quickly (the red filter doesn't need to maximize)
 # I believe this occurs because of the bright light that makes the object more detectible
+
+# Reference from given OpenCV tutorial page in the Lab
+# Also referred to computervisioneng - github/YouTube tutorial

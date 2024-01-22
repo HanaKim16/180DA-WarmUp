@@ -1,7 +1,13 @@
 I added images of the color picker in this folder.
-Images included normal and with brightness turned up (flash)
+Images included brightness low and brightness high
 
-Turning up the brightness can help the code because the colors are more detectable this way.
-However, if it's too bright it may hurt the code because the threshold becomes very close to the maximum.
-(This is showcased in the color picker screenshot 'Ducky with Flash')
-The numbers for the flash photo are (255, 250, 66) - The range here is much higher versus without the flash: (233, 195, 23).
+Turning up the brightness caused the program to not be able to detect
+the color because it could not identify the color on the screen.
+
+If it's too bright it may hurt the code because the threshold becomes very close to the maximum.
+(This is showcased with the higher brightness)
+
+When the brightness is lower, the camera is also able to capture
+a 'truer' hue of the color.
+
+It also doesn't help that my webcam is not very clear.

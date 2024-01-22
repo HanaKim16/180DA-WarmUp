@@ -43,3 +43,6 @@ bar = plot_colors2(hist, clt.cluster_centers_)
 plt.axis("off")
 plt.imshow(bar)
 plt.show()
+
+# cite - https://code.likeagirl.io/finding-dominant-colour-on-an-image-b4e075f98097
+# This is the given tutorial link from the Lab

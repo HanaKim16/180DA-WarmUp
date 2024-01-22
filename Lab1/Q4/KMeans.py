@@ -62,3 +62,6 @@ def kmeans(k, data, n, max_val, t):
         safety += 1
     logging.debug("Ran cluster %d times for threshold  %d" % (safety, t))
     return (new_means, counts)
+
+# KMeans code source is from the given link in the lab - the tutorial page
+# Cite - https://code.likeagirl.io/finding-dominant-colour-on-an-image-b4e075f98097
