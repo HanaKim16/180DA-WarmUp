@@ -61,3 +61,5 @@ except KeyboardInterrupt:
 # Stop the loop and disconnect from the broker.
 client.loop_stop()
 client.disconnect()
+
+# Citations - This code was provided in Lab Instructions

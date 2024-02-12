@@ -116,3 +116,6 @@ if __name__ == "__main__":
         else:
             print("Sorry, you lose!\nI was thinking of '{}'.".format(word))
             break
+
+# Citation - Tutorial from Lab Instructions
+# https://realpython.com/python-speech-recognition/#putting-it-all-together-a-guess-the-word-game

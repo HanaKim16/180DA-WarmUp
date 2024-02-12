@@ -83,9 +83,7 @@ except KeyboardInterrupt:
 client.loop_stop()
 client.disconnect()
 
-
-
-
+# Citations - This code was provided in Lab Instructions
 
 
 # **GRAVEYARD**
