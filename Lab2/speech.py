@@ -53,7 +53,7 @@ def recognize_speech_from_mic(recognizer, microphone):
 
 if __name__ == "__main__":
     # set the list of words, maxnumber of guesses, and prompt limit
-    WORDS = ["apple", "banana", "donkey", "orange", "mango", "lemon"]
+    WORDS = ["apple is red", "banana is curved", "donkey is cute", "orange is sour", "mango is good", "extra lemon is always loved"]
     NUM_GUESSES = 3
     PROMPT_LIMIT = 5
 

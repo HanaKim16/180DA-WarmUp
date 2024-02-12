@@ -1,0 +1,18 @@
+a.
+Our plans for speech recognition for our game:
+Control Gestures
+Choosing Options
+Ex. shopping in a shop and choosing items
+
+b.
+I don't imagine it to be too complex as of now.
+However, perhaps sentences and phrases can be incorporated
+and would be a reasonable feature.
+
+c.
+I imagine our game will need a level of speech accuracy that is a little better than the one written for this lab. I didn't have much difficulty with the accuracy, but I did notice a bit of a delay and this will have to be mitigated. A missed recognition wouldn't hurt the progress of the game because our game will implement speech recognition when shopping at the game store for items to level up their character - meaning there is no time limit here.
+
+d.
+The recognition worked in the classroom while others were talking.
+However, I do not think it will work in a busy noisy setting. 
+Perhaps through a headset where a limited amount of background noise will be captured will be best, but as for now I think the default microphone through the laptop will be alright.
