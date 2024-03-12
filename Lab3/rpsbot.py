@@ -76,3 +76,7 @@ def play_game ():
         print("It's a tie in the end!")
 
 play_game()
+
+# Citations
+# https://docs.python.org/3/library/random.html
+# https://realpython.com/python-rock-paper-scissors/

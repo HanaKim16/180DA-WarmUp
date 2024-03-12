@@ -1,5 +1,8 @@
 #This pygame is implementing the AI_Game.py script 
 #it displays the results as text in a game window
+#
+# I tried to dabble with this code
+# PLEASE REFER TO rpsbot.py FOR GRADING. THANK YOU!
 import pygame
 import sys
 import random

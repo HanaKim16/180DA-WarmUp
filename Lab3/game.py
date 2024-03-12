@@ -82,3 +82,8 @@ client.on_message = on_message
 # Game loop
 while True:
     pass  # Continue looping to handle incoming messages
+
+# Citations
+# https://pypi.org/project/paho-mqtt/
+# https://realpython.com/python-rock-paper-scissors/
+# https://stackoverflow.com/questions/38661984/rock-paper-scissors-2-player

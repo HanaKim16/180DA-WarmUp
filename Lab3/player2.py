@@ -55,3 +55,8 @@ while True:
 # stop loop
 client.loop_stop()
 client.disconnect()
+
+# Citations
+# https://pypi.org/project/paho-mqtt/
+# https://realpython.com/python-rock-paper-scissors/
+# https://stackoverflow.com/questions/38661984/rock-paper-scissors-2-player
