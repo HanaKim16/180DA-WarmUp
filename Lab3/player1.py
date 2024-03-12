@@ -40,7 +40,7 @@ client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 
-# Connect to the MQTT broker asynchronously
+# Connect to the MQTT
 client.connect_async('mqtt.eclipseprojects.io')
 client.loop_start()
 

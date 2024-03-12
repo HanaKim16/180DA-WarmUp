@@ -1,12 +1,12 @@
 import paho.mqtt.client as mqtt
 
-# Dictionary to store player choices
+# Dictionary - player inputs
 both_inputs = {'player1': None, 'player2': None}
 
 def on_connect(client, userdata, flags, rc):
     print("Connected to MQTT Broker")
     
-    # Subscribe to the player choices topics
+    # Subscribe to player inputs
     client.subscribe("game/inputs/player1")
     client.subscribe("game/inputs/player2")
     
@@ -43,10 +43,10 @@ def play_round():
         print("Player 2 wins! Rock beats Scissors.")
         results = "Player 2"
 
-    # Publish results to the shared "game/results" topic
+    # Publish results
     client.publish("game/results", results)
 
-    # Reset player choices for the next round
+    # Reset player inputs
     both_inputs['player1'] = None
     both_inputs['player2'] = None
 
@@ -56,24 +56,24 @@ def on_message(client, userdata, msg):
     # Extract player name from the topic
     player_name = msg.topic.split("/")[-1]
 
-    # Decode the user's choice from the message payload
+    # Decode the user's inputs from the message payload
     user_input = msg.payload.decode("utf-8")
 
     print(f"Received choice {user_input} from {player_name}")
 
-    # Store the player's choice
+    # Store the player's input
     both_inputs[player_name] = user_input
 
-    # Check if both players have made choices
+    # Check if both players input
     if None not in both_inputs.values():
         play_round()
 
-################################################
+# mqtt
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_disconnect = on_disconnect
 
-# Connect to the MQTT broker asynchronously
+# Connect to the MQTT
 client.connect_async('mqtt.eclipseprojects.io')
 client.loop_start()
 
