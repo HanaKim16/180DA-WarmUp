@@ -1,0 +1,16 @@
+Task 3
+
+Observe how much lag is present. Are there ways to reduce the lag (e.g. reducing the frequency at
+which messages are sent)? What if you could do processing on the IMU itself so that only a single
+message is sent when something is recognized? What are other ways of getting around the lag, if you
+have to have lag?
+
+There is some lag when the values change. I think that because of the abundance of data transferrance, the lag occurs.
+Perhaps having a local variable store more data than sending it would  mitigate the lag.
+Another way would be to slow down the actions, but this would put into consideration the processing of less actions?
+
+Task 4
+
+Visually explore - From testing, I found that the directions correlate to an "x, y, and z" axis.
+When flat, the gravity acceleration presents as 9.8 m/s^2.
+When the IMU is idle, not much fluctuation occurs in the data.
